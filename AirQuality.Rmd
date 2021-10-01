@@ -3,28 +3,28 @@ title: "New Air Quality Dataset"
 author: "QIA"
 date: "2021/10/1"
 output:
+  word_document: default
   html_document:
     df_print: paged
   pdf_document: default
 ---
 
-## <font face="" color=red>Step 1</font>
-## ***<font face="" color=red>Here I make a data frame from the air quality dataset and summary it.</font>***
+## <font face="" color=BLUE> Step 1</font>  
+## ***<font face="" color=blue>Here I make a data frame from the air quality dataset and summary it.</font>***
 ```{r airquality1}
 summary(airquality)
 ```
 
-## <font face="" color=red>Step 2</font>
-## ***<font face="" color=red>There are some NA values in this dataset, as shown below.</font>***
+## <font face="" color=blue>Step 2</font>
+## ***<font face="" color=blue>There are some NA values in this dataset, as shown below.</font>***
 ```{r airquality2}
 airquality
 ```
 
 
-## <font face="" color=red> Step 3 </font>
-## ***<font face="" color=red>In the next chunk, I clean the dataset from NA values and display it.</font>***
+## <font face="" color=blue> Step 3 </font>
+## ***<font face="" color=blue>In the next chunk, I clean the dataset from NA values and display it.</font>***
 ```{r airquality3}
 good<-complete.cases(airquality)
 airquality[good, ]
 ```
-
