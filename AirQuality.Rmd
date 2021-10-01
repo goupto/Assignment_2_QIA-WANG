@@ -3,9 +3,9 @@ title: "New Air Quality Dataset"
 author: "QIA"
 date: "2021/10/1"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 ## <font face="" color=red>Step 1</font>
