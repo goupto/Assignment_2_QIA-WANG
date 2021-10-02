@@ -12,13 +12,14 @@ output:
 ## <font face="" color=BLUE> Step 1</font>  
 ## ***<font face="" color=blue>Here I make a data frame from the air quality dataset and summary it.</font>***
 ```{r airquality1}
-summary(airquality)
+mydata<-data.frame(airquality)
+summary(mydata)
 ```
 
 ## <font face="" color=blue>Step 2</font>
 ## ***<font face="" color=blue>There are some NA values in this dataset, as shown below.</font>***
 ```{r airquality2}
-airquality
+mydata
 ```
 
 
