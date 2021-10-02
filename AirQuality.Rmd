@@ -4,9 +4,9 @@ author: "QIA"
 date: "2021/10/1"
 output:
   word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
 ---
 
 ## <font face="" color=BLUE> Step 1</font>  
@@ -26,6 +26,6 @@ mydata
 ## <font face="" color=blue> Step 3 </font>
 ## ***<font face="" color=blue>In the next chunk, I clean the dataset from NA values and display it.</font>***
 ```{r airquality3}
-good<-complete.cases(airquality)
-airquality[good, ]
+good<-complete.cases(mydata)
+mydata[good, ]
 ```
